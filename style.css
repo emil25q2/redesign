@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    /*    box-sizing: border-box;*/
+}
+
+/*_________________________________________*/
+/*header, nav*/
+#header {
+    overflow: hidden;
+    background-color: white;
+}
+
+#nav {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+#nav {
+    font-family: 'Roboto';
+}
+
+nav a:first-child {
+    display: inline;
+}
+
+nav {
+    flex-direction: row;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*_________________________________________*/
+/*footer*/
+#my_footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    font-family: '';
+    color: white;
+    background-color: black;
+    text-decoration: none;
+
+    font-family: 'Roboto';
+}
+
+/*_________________________________________*/
+/*forside*/
+#hitit {
+    position: absolute;
+    width: 28vw;
+    left: 37vw;
+    top: 19vw;
+    cursor: pointer;
+}
+
+#video {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#images_container {
+    margin: auto;
+    width: 98%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#images_container img {
+    padding: 30px;
+}
+
+/*_________________________________________*/
+/*contact*/
+#contact img {
+    width: 100%;
+    opacity: 40%;
+    filter: grayscale(100%)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animationer*/
+.hide {
+    display: none;
+}
+
+/*_________________________________________*/
+.show {
+    display: contents;
+}
+
+/*_________________________________________*/
+.zoom_in_fade {
+    animation: zoom_in_fade_kf 5s 1;
+}
+
+@keyframes zoom_in_fade_kf {
+    0% {
+        transform: scale(0);
+        opacity: 0%
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 100%
+    }
+}
+
+/*_________________________________________*/
