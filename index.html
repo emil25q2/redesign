@@ -7,43 +7,61 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
 
-    <link rel="shortcut icon" href="inspi_billeder/hitit.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/HITIT_Favicon.png" type="image/x-icon">
+
+    <!--   fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/qqm4hai.css">
 </head>
 
 <body>
-    <header id="header">
-        <nav id="nav">
-            <a href="index.html">HITIT </a>
-            <a href="shop.html">SHOP </a>
-            <a href="team.html">TEAM </a>
-            <a href="media.html">MEDIA </a>
-            <a href="retailers.html">RETAILERS </a>
-            <a href="contact.html">CONTACT</a>
-        </nav>
+    <header>
+        <p>FREE SHIPPING ACROSS DENMARK ON PURCHASE ABOVE 300DKK</p>
     </header>
 
-    <main>
+    <!--
         <section id="startside">
             <img id="hitit" src="inspi_billeder/hitit.png" alt="hitit">
         </section>
+-->
+    <nav>
+        <a href="index.html">HITIT </a>
+        <a href="shop.html">SHOP </a>
+        <a href="team.html">TEAM </a>
+        <a href="media.html">MEDIA </a>
+        <a href="retailers.html">RETAILERS </a>
+        <a href="contact.html">CONTACT</a>
+        <a href=""><img src="images/search.png" width="15px" height="15px" alt=""></a>
+    </nav>
 
+    <main>
         <section id="forside">
             <div id="video">
-                <video width="100%">
-                    <source src="pilot_video.mp4">
+                <video width="100%" autoplay loop>
+                    <source src="pilot_video.mp4" type="video/mp4">
                 </video>
             </div>
+
+            <h1>FEATURED PRODUCTS</h1>
         </section>
 
         <section id="images_container">
-            <img width="400px" src="slet/1_after.png" alt="insert_productimage">
-            <img width="400px" src="slet/1_after.png" alt="insert_productimage">
-            <img width="400px" src="slet/1_after.png" alt="insert_productimage">
+            <img width="300px" src="images/screws.png" alt="skruer">
+            <img width="300px" src="images/Black_Tee_Front.png" alt="black_tee">
+            <img width="300px" src="images/Ash_Tee_front.png" alt="ash_tee">
         </section>
+
+        <div id="scroll">
+            <img src="images/Hitit_home_billede_1.png" alt="">
+        </div>
     </main>
 
-    <footer id="my_footer">
-        <a href="#"><span class="arrow">↑</span><span class="preserve-whitespace">BACK TO TOP</span></a>
+    <footer>
+        <!--        <a href="#"><span class="arrow">↑</span><span class="preserve-whitespace">BACK TO TOP</span></a>-->
+
+        <p>SIGN UP TO GET THE LATEST ON SALES, PRODUCT REALEASES AND MORE...</p>
+        <input placeholder="EMAIL" type="email" name="email"> <button>SUBSCRIBE</button>
     </footer>
 
     <script src="script.js"></script>
