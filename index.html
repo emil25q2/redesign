@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>HITIT</title>
     <link rel="stylesheet" href="style.css">
 
     <link rel="shortcut icon" href="images/HITIT_Favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--   fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,30 +18,36 @@
 </head>
 
 <body>
-    <header>
-        <p>FREE SHIPPING ACROSS DENMARK ON PURCHASE ABOVE 300DKK</p>
-    </header>
+    <div id="black_bar">
+        <p id="shipping">FREE SHIPPING ACROSS DENMARK ON PURCHASE ABOVE 300DKK</p>
 
-    <!--
-        <section id="startside">
-            <img id="hitit" src="inspi_billeder/hitit.png" alt="hitit">
-        </section>
--->
-    <nav>
-        <a href="index.html">HITIT </a>
-        <a href="shop.html">SHOP </a>
-        <a href="team.html">TEAM </a>
-        <a href="media.html">MEDIA </a>
-        <a href="retailers.html">RETAILERS </a>
-        <a href="contact.html">CONTACT</a>
-        <a href=""><img src="images/search.png" width="15px" height="15px" alt=""></a>
-    </nav>
+        <div id="icons">
+            <a href="https://www.instagram.com/hititskateboarding/" target="blank" class="fa fa-instagram" style="font-size: 1.5em;"></a>
+            <a href="https://www.facebook.com/hititskateboarding/" target="blank" class="fa fa-facebook" style="font-size: 1.5em;"></a>
+            <a href="https://www.youtube.com/channel/UC6ILsPnBxeOUTJyE6OQA5ZQ" target="blank" class="fa fa-youtube" style="font-size: 1.5em;"></a>
+        </div>
+    </div>
+
+    <div id="logo_container">
+        <a href="index.html"><img id="logo" src="images/hitit_logo.png" alt="hitit_logo"> </a>
+    </div>
+
+    <header>
+        <nav>
+            <a href="shop.html">SHOP </a>
+            <a href="team.html">TEAM </a>
+            <a href="media.html">MEDIA </a>
+            <a href="retailers.html">RETAILERS </a>
+            <a href="contact.html">CONTACT</a>
+            <a href=""><img src="images/search.png" alt="search"></a>
+        </nav>
+    </header>
 
     <main>
         <section id="forside">
             <div id="video">
                 <video width="100%" autoplay loop>
-                    <source src="pilot_video.mp4" type="video/mp4">
+                    <source src="video.mp4" type="video/mp4">
                 </video>
             </div>
 
@@ -47,9 +55,26 @@
         </section>
 
         <section id="images_container">
-            <img width="300px" src="images/screws.png" alt="skruer">
-            <img width="300px" src="images/Black_Tee_Front.png" alt="black_tee">
-            <img width="300px" src="images/Ash_Tee_front.png" alt="ash_tee">
+            <div id="skruer">
+                <img src="images/screws.png" alt="skruer">
+                <h1>Hardware</h1>
+                <h2>DKK 39.00</h2>
+                <button id="forside_knapper">Add to basket</button>
+            </div>
+
+            <div id="black_tee">
+                <img src="images/Black_Tee_Front.png" alt="black_tee">
+                <h1>Embroidered Logo Crew Neck - Black</h1>
+                <h2>DKK 399.00</h2>
+                <button id="forside_knapper">Select options</button>
+            </div>
+
+            <div id="ash_tee">
+                <img src="images/Ash_Tee_front.png" alt="ash_tee">
+                <h1>Logo Tee - Ash Grey</h1>
+                <h2>DKK 199.00</h2>
+                <button id="forside_knapper">Select options</button>
+            </div>
         </section>
 
         <div id="scroll">
@@ -58,10 +83,27 @@
     </main>
 
     <footer>
-        <!--        <a href="#"><span class="arrow">↑</span><span class="preserve-whitespace">BACK TO TOP</span></a>-->
+        <h4>SIGN UP TO GET THE LATEST ON SALES, PRODUCT REALEASES AND MORE...</h4>
 
-        <p>SIGN UP TO GET THE LATEST ON SALES, PRODUCT REALEASES AND MORE...</p>
-        <input placeholder="EMAIL" type="email" name="email"> <button>SUBSCRIBE</button>
+        <form id="footer_form">
+            <input id="sign_up" placeholder="EMAIL" type="email" name="email">
+            <button id="subscribe">SUBSCRIBE</button>
+        </form>
+
+        <div id="footer_text">
+            <p>SHIPPING & RETURNS</p>
+            <p>PRIVACY POLICY</p>
+            <p>TERMS & CONDITIONS</p>
+            <p>ABOUT</p>
+        </div>
+
+        <div id="footer_icons">
+            <a href="https://www.instagram.com/hititskateboarding/" target="blank" class="fa fa-instagram" style="font-size: 1.3em;"></a>
+            <a href="https://www.facebook.com/hititskateboarding/" target="blank" class="fa fa-facebook" style="font-size: 1.3em;"></a>
+            <a href="https://www.youtube.com/channel/UC6ILsPnBxeOUTJyE6OQA5ZQ" target="blank" class="fa fa-youtube" style="font-size: 1.3em;"></a>
+        </div>
+
+        <p id="rights">ALL RIGHT RESERVED HITIT IVS</p>
     </footer>
 
     <script src="script.js"></script>

@@ -10,29 +10,83 @@ body {
 
 /*_________________________________________*/
 /*header, nav*/
-header {
+#black_bar {
     margin-top: 0;
-    border: 1px solid black;
     background-color: black;
     font-family: 'roboto';
     font-size: .7rem;
     color: white;
-    text-align: center;
+    /*    text-align: center;*/
+    display: flex;
+    justify-content: end;
 }
 
-nav {
+#shipping {
+    padding-right: 435px;
+}
+
+#icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*icons*/
+.fa {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+}
+
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+.fa-youtube {
+    background: black;
+    color: white;
+}
+
+#icons a:hover {
+    color: #78BFAB;
+}
+
+header {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 10px;
-
-    flex-direction: row;
+    padding: 20px;
+    /*    flex-direction: row;*/
     font-size: 1rem;
     position: sticky;
-    top: 0;
+    top: 4vw;
     width: 100%;
 
     font-family: 'Roboto';
+}
+
+#logo_container {
+    text-align: center;
+
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#logo {
+    width: 7%;
+}
+
+nav img {
+    width: 15px;
+    height: 15px;
 }
 
 nav a:link {
@@ -47,7 +101,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: grey;
+    color: #78BFAB;
     text-decoration: none;
 }
 
@@ -57,32 +111,56 @@ nav a:first-child {
 
 /*_________________________________________*/
 /*footer*/
-/*
-#my_footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-
-    font-family: '';
-    color: white;
-    background-color: black;
-    text-decoration: none;
-
-    font-family: 'Roboto';
-}
-*/
-
 footer {
-    margin: 0;
-    border: 120px solid black;
     background-color: black;
+    padding-bottom: 1px;
+    padding-top: 17px;
 }
 
-footer p {
+footer h4 {
     font-family: 'roboto';
     color: white;
     text-align: center;
+}
+
+#footer_form {
+    display: flex;
+    justify-content: center;
+}
+
+#footer_text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+    font-family: 'roboto';
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#footer_text p {
+    cursor: pointer;
+}
+
+#footer_icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#footer_icons a:hover {
+    color: #78BFAB;
+}
+
+#rights {
+    color: white;
+    text-align: center;
+    font-family: 'roboto';
+    font-size: .8rem;
+    margin-top: 30px;
 }
 
 /*_________________________________________*/
@@ -106,23 +184,51 @@ video {
     width: 98%;
     padding: 10px;
     text-align: center;
+    display: block ruby;
 }
 
 #images_container img {
     padding: 30px;
+    width: 300px;
 }
 
-.image_container {
-    text-align: center;
+#skruer,
+#black_tee,
+#ash_tee {
+    display: grid;
 }
 
-.image_container img {
-    width: 93%;
-    height: auto;
+#images_container,
+h1,
+h2 {
+    font-family: 'roboto';
+}
+
+#images_container h1 {
+    font-size: .8rem;
+}
+
+#images_container h2 {
+    font-size: 1rem;
+    margin-top: -1px;
+}
+
+#forside_knapper {
+    padding: .6rem;
+    border: 0;
+    background: #5C6F68;
+    color: white;
+    text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-inline: 100px;
 }
 
 #scroll {
     text-align: center;
+    margin-top: 36px;
+    margin-bottom: 26px;
 }
 
 #scroll img {
@@ -132,13 +238,6 @@ video {
 
 /*_________________________________________*/
 /*contact*/
-
-/*
-#contact_main {
-    background-image: url(images/bunny.png);
-}
-*/
-
 #contact_main h1 {
     font-family: 'vortice';
     text-align: center;
@@ -176,35 +275,146 @@ textarea {
 #send_message {
     padding: .6rem;
     border: 0;
-    background: #78BFAB;
+    background: #5C6F68;
     color: white;
     text-shadow: 0 0 6px rgb(0 0 0 / 40%);
     font-weight: 700;
     font-size: 1rem;
+    cursor: pointer;
+
 }
 
 #subscribe {
     padding: .6rem;
     border: 0;
-    background: #78BFAB;
+    background: #5C6F68;
     color: white;
     text-shadow: 0 0 6px rgb(0 0 0 / 40%);
     font-weight: 700;
     font-size: 1rem;
+    cursor: pointer;
 
-    display: inline;
 }
 
-#footer_form {
-    display: flex;
-    justify-content: center;
+/*_________________________________________*/
+/*tak side*/
+#tak {
+    background-image: url(images/bunny.png);
+    background-size: cover;
+    height: 583px;
 }
 
+#tak h1 {
+    font-family: 'vortice';
+    text-align: center;
+    padding-top: 70px;
+}
+
+#tak p {
+    font-family: 'roboto';
+    text-align: center;
+
+    font-size: 1.2rem;
+    background-color: white;
+    opacity: 70%;
+
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin-top: 117px;
+    margin-left: 520px;
+}
+
+/*_________________________________________*/
+/*team side*/
+#team_overskrift {
+    font-family: 'vortice';
+    text-align: center;
+}
+
+#team_image {
+    width: 100%;
+}
+
+#tobias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 208px;
+}
+
+#tobias h2 {
+    font-family: 'vortice';
+    position: relative;
+    top: 5vw;
+    font-size: 1.54rem;
+}
+
+#cirkel {
+    position: relative;
+    top: -4vw;
+    left: -8vw;
+    width: 85%;
+}
+
+#bisse {
+    position: absolute;
+    width: 34%;
+    top: 76vw;
+    left: 12vw;
+}
+
+#insta {
+    display: grid;
+    grid-column: 2/3;
+
+    background-color: white;
+    color: #5C6F68;
+    text-decoration: none;
+
+    top: -21vw;
+    position: relative;
+}
+
+/*_________________________________________*/
+/*retailer side*/
+#main_retailers h1 {
+    font-family: 'vortice';
+    text-align: center;
+}
+
+#retailers_logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+
+    justify-items: center;
+    margin-top: 50px;
+}
+
+#retailers_logo img {
+    width: 40%;
+    align-self: center;
+}
+
+/*_________________________________________*/
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*_________________________________________*/
 /*animationer
 .hide {
     display: none;
