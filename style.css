@@ -349,11 +349,26 @@ textarea {
     font-size: 1.54rem;
 }
 
+#alex h2 {
+    font-family: 'vortice';
+    position: relative;
+    top: -29vw;
+    left: 18vw;
+    font-size: 1.54rem;
+}
+
 #cirkel {
     position: relative;
     top: -4vw;
     left: -8vw;
     width: 85%;
+}
+
+#cirkel2 {
+    position: relative;
+    top: -13vw;
+    left: 63vw;
+    width: 30%;
 }
 
 #bisse {
@@ -363,16 +378,37 @@ textarea {
     left: 12vw;
 }
 
-#insta {
+#alex_img {
+    position: absolute;
+    width: 43%;
+    top: 115vw;
+    right: -4vw;
+    transform: scaleX(-1);
+}
+
+#insta_tobias {
     display: grid;
     grid-column: 2/3;
 
-    background-color: white;
+    background-color: transparent;
     color: #5C6F68;
     text-decoration: none;
 
     top: -21vw;
     position: relative;
+}
+
+#insta_alex {
+    display: grid;
+    grid-column: 1/2;
+
+    background-color: transparent;
+    color: #5C6F68;
+    text-decoration: none;
+
+    position: relative;
+    left: -18vw;
+    top: -29vw;
 }
 
 /*_________________________________________*/
