@@ -48,6 +48,7 @@
         <p>Contact us on info@hititskateboarding.com or fill out the form below.</p>
 
         <!--form html-->
+        <!--
         <form action="tak.html" name="kontakt" netlify>
 
             <section id="form_section">
@@ -74,6 +75,23 @@
                 </div>
             </section>
         </form>
+-->
+
+        <form action="tak.html" name="kontakt" netlify>
+            <div class="form-group">
+                <input id="name" name="name" type="text" placeholder="NAME" autocomplete="no" required>
+            </div>
+
+            <div class="form-group">
+                <input id="email" placeholder="EMAIL" name="email" type="email" required>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message" name="message" type="text" placeholder="MESSAGE" rows="8" required></textarea>
+            </div>
+
+            <button id="send_message">SEND MESSAGE</button>
+        </form>
 
     </main>
 
@@ -81,7 +99,7 @@
         <h4>SIGN UP TO GET THE LATEST ON SALES, PRODUCT REALEASES AND MORE...</h4>
 
         <form id="footer_form">
-            <input id="sign_up" placeholder="EMAIL" type="email" name="email">
+            <input id="sign_up" placeholder="EMAIL" type="email" name="email" required>
             <button id="subscribe">SUBSCRIBE</button>
         </form>
 
