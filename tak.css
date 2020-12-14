@@ -1,14 +1,7 @@
-/*
-* {
-    margin: 10px;
-}
-*/
-
 body {
     margin: 0;
 }
 
-/*_________________________________________*/
 /*header, nav*/
 #black_bar {
     margin-top: 0;
@@ -182,116 +175,29 @@ footer h4 {
 }
 
 /*_________________________________________*/
-/*forside*/
-#video {
+#tak {
+    background-image: url(images/bunny.png);
+    background-size: cover;
+    height: 583px;
+}
+
+#tak h1 {
+    font-family: 'vortice';
     text-align: center;
+    padding-top: 70px;
 }
 
-video {
-    width: 93%;
-    height: auto;
-}
-
-#forside h1 {
+#tak p {
     font-family: 'roboto';
     text-align: center;
-}
 
-#images_container {
-    margin: auto;
-    width: 98%;
-    padding: 10px;
-    text-align: center;
-    display: block ruby;
-}
+    font-size: 1.2rem;
+    background-color: white;
+    opacity: 70%;
 
-#images_container img {
-    padding: 30px;
     width: 300px;
+    padding: 50px;
+    margin-top: 117px;
+    margin-left: 520px;
+    border-radius: 7px;
 }
-
-#skruer,
-#black_tee,
-#ash_tee {
-    display: grid;
-}
-
-#images_container,
-h1,
-h2 {
-    font-family: 'roboto';
-}
-
-#images_container h1 {
-    font-size: .8rem;
-}
-
-#images_container h2 {
-    font-size: 1rem;
-    margin-top: -1px;
-}
-
-#forside_knapper {
-    padding: .6rem;
-    border: 0;
-    background: #5C6F68;
-    color: white;
-    text-shadow: 0 0 6px rgb(0 0 0 / 40%);
-    font-weight: 700;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-inline: 100px;
-}
-
-#scroll {
-    text-align: center;
-    margin-top: 36px;
-    margin-bottom: 26px;
-}
-
-#scroll img {
-    width: 93%;
-    height: auto;
-    filter: grayscale(100%);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*_________________________________________*/
-/*animationer
-.hide {
-    display: none;
-}
-
-/*_________________________________________*/
-.show {
-    display: contents;
-}
-
-/*_________________________________________*/
-.zoom_in_fade {
-    animation: zoom_in_fade_kf 5s 1;
-}
-
-@keyframes zoom_in_fade_kf {
-    0% {
-        transform: scale(0);
-        opacity: 0%
-    }
-
-    100% {
-        transform: scale(1);
-        opacity: 100%
-    }
-}
-
-/*_________________________________________*/
