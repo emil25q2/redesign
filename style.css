@@ -252,6 +252,7 @@ h2 {
 #scroll img {
     width: 93%;
     height: auto;
+    filter: grayscale(100%);
 }
 
 /*_________________________________________*/
@@ -500,10 +501,10 @@ textarea {
     opacity: 70%;
 
     width: 300px;
-    border: 15px;
     padding: 50px;
     margin-top: 117px;
     margin-left: 520px;
+    border-radius: 7px;
 }
 
 
