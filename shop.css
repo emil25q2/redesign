@@ -122,6 +122,9 @@ footer h4 {
     margin-top: 1.5rem;
     border-radius: 0;
     border: 1px solid transparent;
+    background: #f5f5f5;
+    padding: 8px 12px 10px;
+    font-size: 1rem;
 }
 
 #footer_form {
@@ -138,6 +141,7 @@ footer h4 {
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
+    margin-top: 1.5rem;
 }
 
 #footer_text {
