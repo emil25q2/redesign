@@ -1,3 +1,13 @@
+img {
+    width: 100%
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 body {
     margin: 0;
 }
@@ -177,4 +187,86 @@ footer h4 {
     font-family: 'roboto';
     font-size: .8rem;
     margin-top: 30px;
+}
+
+h1 {
+    color: black;
+    font-family: 'vortice';
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#first_section img {
+    display: block;
+    object-fit: cover;
+}
+
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 90px;
+    grid-row-gap: 20px;
+
+}
+
+.col {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.col2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+
+.col3 {
+    grid-column: 3/3;
+    grid-row: 1/2;
+    width: 240px;
+    height: auto;
+
+}
+
+.col4 {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    width: 240px;
+    height: auto;
+
+}
+
+#forside_knapper {
+    padding: .6rem;
+    border: 0;
+    background: #5C6F68;
+    color: white;
+    text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-inline: 100px;
+}
+
+
+#forside_knapper1 {
+    padding: .6rem;
+    border: 0;
+    background: #5C6F68;
+    color: white;
+    text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-inline: 55px;
+}
+
+
+h2 {
+    color: black;
+    font-family: 'vortice';
+    text-align: center;
+
 }
