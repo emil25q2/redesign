@@ -236,7 +236,7 @@ h2 {
     margin-top: -1px;
 }
 
-#forside_knapper {
+.forside_knapper {
     padding: .6rem;
     border: 0;
     background: #5C6F68;
