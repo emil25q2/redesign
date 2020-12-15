@@ -151,7 +151,7 @@ footer p {
     font-size: 1rem;
 }
 
-#footer_form #sign_up {
+input {
     margin-top: 1.5rem;
     border-radius: 0;
     border: 1px solid transparent;
