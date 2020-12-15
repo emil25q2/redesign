@@ -230,7 +230,7 @@ h1 {
     grid-row: 1/2;
 }
 
-#forside_knapper {
+.forside_knapper {
     padding: .6rem;
     border: 0;
     background: #5C6F68;
@@ -239,11 +239,11 @@ h1 {
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
-    margin-inline: 100px;
+    margin-left: 7vw;
 }
 
 
-#forside_knapper1 {
+.forside_knapper1 {
     padding: .6rem;
     border: 0;
     background: #5C6F68;
@@ -252,7 +252,7 @@ h1 {
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
-    margin-inline: 106px;
+    margin-left: 7.5vw;
 }
 
 

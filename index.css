@@ -245,7 +245,8 @@ h2 {
     font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
-    margin-inline: 100px;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 
 #scroll {
