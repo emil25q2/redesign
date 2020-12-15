@@ -188,88 +188,6 @@ footer h4 {
     text-align: center;
 }
 
-#team_image {
-    width: 100%;
-}
-
-/*
-#tobias {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 208px;
-}
-
-#tobias h2 {
-    font-family: 'vortice';
-    position: relative;
-    top: 5vw;
-    font-size: 1.54rem;
-}
-
-#alex h2 {
-    font-family: 'vortice';
-    position: relative;
-    top: -29vw;
-    left: 18vw;
-    font-size: 1.54rem;
-}
-
-#cirkel {
-    position: relative;
-    top: -4vw;
-    left: -8vw;
-    width: 85%;
-}
-
-#cirkel2 {
-    position: relative;
-    top: -13vw;
-    left: 63vw;
-    width: 30%;
-}
-
-#bisse {
-    position: absolute;
-    width: 34%;
-    top: 76vw;
-    left: 12vw;
-}
-
-#alex_img {
-    position: absolute;
-    width: 43%;
-    top: 115vw;
-    right: -4vw;
-    transform: scaleX(-1);
-}
-
-#insta_tobias {
-    display: grid;
-    grid-column: 2/3;
-
-    background-color: transparent;
-    color: #5C6F68;
-    text-decoration: none;
-
-    top: -21vw;
-    position: relative;
-}
-*/
-/*
-#insta_alex {
-    display: grid;
-    grid-column: 1/2;
-
-    background-color: transparent;
-    color: #5C6F68;
-    text-decoration: none;
-
-    position: relative;
-    left: -18vw;
-    top: -29vw;
-}
-*/
-
 #main_team h2:hover {
     color: #78BFAB;
 }
@@ -308,7 +226,6 @@ footer h4 {
 
 #alex_img {
     transform: scaleX(-1);
-    /*    display: grid;*/
     grid-column: 4/5;
     z-index: 2;
     grid-row: 1/2;
@@ -351,4 +268,9 @@ footer h4 {
     grid-row: 1/2;
     align-self: center;
     z-index: 2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

@@ -199,3 +199,8 @@ footer h4 {
     width: 40%;
     align-self: center;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}

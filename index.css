@@ -211,7 +211,8 @@ video {
 
 #images_container img {
     padding: 30px;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 #skruer,
@@ -250,15 +251,16 @@ h2 {
 }
 
 #scroll {
-    text-align: center;
     margin-top: 36px;
     margin-bottom: 26px;
+
+    display: grid;
+    justify-content: center;
 }
 
 #scroll img {
-    width: 93%;
+    max-width: 100%;
     height: auto;
-    margin: 55px;
 }
 
 
