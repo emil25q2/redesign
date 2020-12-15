@@ -2,9 +2,15 @@ body {
     margin: 0;
 }
 
+main {
+    background-color: black;
+}
+
 h1 {
     font-family: 'vortice-concept';
     text-align: center;
+    padding-top: 35px;
+    color: white;
 }
 
 #video_container {
@@ -15,17 +21,17 @@ h1 {
     display: block ruby;
 }
 
-
 h2 {
     font-family: 'roboto';
     font-size: 1rem;
+    color: white;
+    font-weight: normal;
 }
 
 iframe {
     width: 100%;
     height: auto;
 }
-
 
 /*_________________________________________*/
 /*header, nav*/
