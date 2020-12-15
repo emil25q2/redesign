@@ -118,6 +118,7 @@ footer h4 {
     font-family: 'roboto';
     color: white;
     text-align: center;
+    font-weight: normal;
 }
 
 #footer_form #sign_up {
@@ -140,7 +141,6 @@ footer h4 {
     background: #5C6F68;
     color: white;
     text-shadow: 0 0 6px rgb(0 0 0 / 40%);
-    font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1.5rem;
@@ -188,9 +188,8 @@ footer h4 {
     text-align: center;
 }
 
-#skateboard_image {
+#team_image {
     width: 100%;
-
 }
 
 /*

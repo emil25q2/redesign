@@ -116,6 +116,7 @@ footer h4 {
     font-family: 'roboto';
     color: white;
     text-align: center;
+    font-weight: normal;
 }
 
 #footer_form #sign_up {
@@ -135,7 +136,6 @@ footer h4 {
     background: #5C6F68;
     color: white;
     text-shadow: 0 0 6px rgb(0 0 0 / 40%);
-    font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
 }
@@ -261,7 +261,6 @@ input {
     color: white;
     border: 1px solid #5C6F68;
     background: #5C6F68;
-    font-weight: 600;
     padding: 8px 12px 10px;
     border-radius: 4px;
     font-size: 1rem;

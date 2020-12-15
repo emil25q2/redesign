@@ -126,6 +126,7 @@ footer h4 {
     font-family: 'roboto';
     color: white;
     text-align: center;
+    font-weight: normal;
 }
 
 #footer_form #sign_up {
@@ -148,7 +149,6 @@ footer h4 {
     background: #5C6F68;
     color: white;
     text-shadow: 0 0 6px rgb(0 0 0 / 40%);
-    font-weight: 700;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 1.5rem;
@@ -194,7 +194,7 @@ h1 {
     font-family: 'vortice';
     text-align: center;
     font-size: 30px;
-
+    padding-bottom: 50px;
 }
 
 #first_section img {
@@ -206,9 +206,11 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    /*
     column-gap: 90px;
     grid-row-gap: 20px;
-
+*/
+    gap: 90px;
 }
 
 .col {
@@ -227,7 +229,6 @@ h1 {
     grid-row: 1/2;
     width: 240px;
     height: auto;
-
 }
 
 .col4 {
@@ -235,7 +236,6 @@ h1 {
     grid-row: 2/2;
     width: 240px;
     height: auto;
-
 }
 
 #forside_knapper {
@@ -268,5 +268,14 @@ h2 {
     color: black;
     font-family: 'roboto';
     text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
 
+h3 {
+    color: black;
+    font-family: 'roboto';
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
 }
