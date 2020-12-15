@@ -114,11 +114,12 @@ footer {
     padding-top: 17px;
 }
 
-footer h4 {
+footer p {
     font-family: 'roboto';
     color: white;
     text-align: center;
     font-weight: normal;
+    font-size: 1rem;
 }
 
 #footer_form #sign_up {
