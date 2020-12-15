@@ -251,7 +251,7 @@ h2 {
     margin-right: 6vw;
 }
 
-#scroll {
+#diasshow {
     margin-top: 36px;
     margin-bottom: 26px;
 
@@ -259,7 +259,7 @@ h2 {
     justify-content: center;
 }
 
-#scroll img {
+#diasshow img {
     max-width: 100%;
     height: auto;
 }
