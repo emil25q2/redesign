@@ -339,7 +339,7 @@ footer h4 {
     grid-column: 1/2;
     grid-row: 1/2;
     z-index: 1;
-    margin-top: 250px;
+    margin-top: 273px;
     background-color: transparent;
     color: #5C6F68;
     margin-left: -100px;
@@ -352,6 +352,3 @@ footer h4 {
     align-self: center;
     z-index: 2;
 }
-
-/*_________________________________________*/
-/*overlay*/
