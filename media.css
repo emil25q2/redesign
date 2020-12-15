@@ -2,6 +2,31 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'vortice';
+    text-align: center;
+}
+
+#video_container {
+    margin: auto;
+    width: 98%;
+    padding: 10px;
+    text-align: center;
+    display: block ruby;
+}
+
+
+h2 {
+    font-family: 'roboto';
+    font-size: 1rem;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+
 /*_________________________________________*/
 /*header, nav*/
 #black_bar {
