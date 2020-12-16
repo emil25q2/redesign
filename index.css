@@ -123,7 +123,6 @@ footer p {
 }
 
 input {
-    margin-top: 1.5rem;
     border-radius: 0;
     border: 1px solid transparent;
     background: #f5f5f5;
@@ -180,6 +179,16 @@ input {
     font-family: 'roboto';
     font-size: .8rem;
     margin-top: 30px;
+}
+
+#footer_email {
+    margin-top: 1.5rem;
+    border-radius: 0;
+}
+
+#footer_email input {
+    border-radius: 0;
+    border: 1px solid transparent;
 }
 
 /*_________________________________________*/
