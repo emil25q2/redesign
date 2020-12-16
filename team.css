@@ -64,16 +64,14 @@ header {
 
 #logo_container {
     text-align: center;
-
-    flex-direction: row;
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 4;
+    z-index: 3;
 }
 
 #logo {
-    width: 7%;
+    margin-top: 1vw;
 }
 
 nav img {
