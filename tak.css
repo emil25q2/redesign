@@ -25,25 +25,20 @@ body {
 
 /*icons*/
 .fa {
-    font-size: 30px;
     text-align: center;
     text-decoration: none;
     margin: 10px 10px;
-}
 
-.fa-facebook {
     background: black;
     color: white;
 }
 
-.fa-instagram {
-    background: black;
-    color: white;
-}
-
-.fa-youtube {
-    background: black;
-    color: white;
+#basket {
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px;
+    color: black;
+    background: white;
 }
 
 #icons a:hover {
