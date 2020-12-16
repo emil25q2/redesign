@@ -188,7 +188,7 @@ input {
 
 /*_________________________________________*/
 /*forside*/
-#video {
+.video {
     text-align: center;
 }
 
@@ -216,9 +216,9 @@ video {
     height: auto;
 }
 
-#skruer,
-#black_tee,
-#ash_tee {
+.skruer,
+.black_tee,
+.ash_tee {
     display: grid;
 }
 

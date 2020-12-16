@@ -182,7 +182,7 @@ input {
 
 /*_________________________________________*/
 /*retailer side*/
-#main_retailers h1 {
+main h1 {
     font-family: 'vortice-concept';
     text-align: center;
 }

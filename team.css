@@ -189,11 +189,11 @@ input {
     text-align: center;
 }
 
-#main_team h2:hover {
+main h2:hover {
     color: #78BFAB;
 }
 
-#tobias {
+.tobias {
     display: grid;
     margin-left: 170px;
     margin-top: 150px;
@@ -217,7 +217,7 @@ input {
     grid-row: 1/2;
 }
 
-#alex {
+.alex {
     display: grid;
     margin-top: 150px;
     margin-left: 130px;
@@ -232,7 +232,7 @@ input {
     grid-row: 1/2;
 }
 
-#tobias h2 {
+.tobias h2 {
     font-family: 'vortice-concept';
     align-self: center;
     z-index: 2;
@@ -263,7 +263,7 @@ input {
     margin-left: -100px;
 }
 
-#alex h2 {
+.alex h2 {
     font-family: 'vortice-concept';
     grid-column: 1/2;
     grid-row: 1/2;
