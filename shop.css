@@ -3,8 +3,7 @@ img {
 }
 
 section {
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 
@@ -132,6 +131,7 @@ input {
     background: #f5f5f5;
     padding: 8px 12px 10px;
     font-size: 1rem;
+    margin-top: 1.5rem;
 }
 
 #footer_form {
@@ -188,12 +188,9 @@ input {
 label {
     margin-top: 1.5rem;
     border-radius: 0;
+    display: none;
 }
 
-label input {
-    border-radius: 0;
-    border: 1px solid transparent;
-}
 
 h1 {
     color: black;
@@ -205,7 +202,11 @@ h1 {
 
 #first_section img {
     display: block;
-    object-fit: cover;
+}
+
+#first_section {
+    display: grid;
+    justify-content: center;
 }
 
 #first_section .section_wrapper {
@@ -213,6 +214,7 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 90px;
     margin-bottom: 40px;
+    max-width: 1200px;
 }
 
 .col {
