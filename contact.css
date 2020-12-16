@@ -202,12 +202,18 @@ fieldset > * + *:not(.address) {
     display: grid;
 }
 
-input {
+label {
     border: 1px solid #21212133;
     background: #f5f5f5;
     padding: 8px 12px 10px;
     border-radius: 4px;
     font-size: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    background: transparent;
+    border: none;
 }
 
 #send_message {
