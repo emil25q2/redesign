@@ -174,12 +174,12 @@ input {
     margin-top: 30px;
 }
 
-#footer_email {
+label {
     margin-top: 1.5rem;
     border-radius: 0;
 }
 
-#footer_email input {
+label input {
     border-radius: 0;
     border: 1px solid transparent;
 }
